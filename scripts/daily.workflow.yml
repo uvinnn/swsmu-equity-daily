@@ -1,0 +1,60 @@
+name: 权益净值每日更新
+
+# 北京时间 = UTC+8；仅工作日跑，覆盖 19:40–20:10 的净值披露窗口
+# 19:45 / 20:15 / 20:45 / 21:15 对应 UTC 11:45 / 12:15 / 12:45 / 13:15
+on:
+  schedule:
+    - cron: '45 11 * * 1-5'
+    - cron: '15 12 * * 1-5'
+    - cron: '45 12 * * 1-5'
+    - cron: '15 13 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: equity-nav-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取净值并更新页面内联数据
+        run: python scripts/equity_daily.py
+
+      - name: 数据完整性护栏
+        # 12 只基金均应取到各自最近一期有效净值；若明显缺失，说明源站异常，
+        # 此时不提交，保留上一版数据，避免把坏快照发布到线上。
+        run: |
+          python - <<'PY'
+          import json, sys
+          d = json.load(open('equity-data.json', encoding='utf-8'))
+          valid = sum(1 for g in d['groups'] for s in ('a', 'c')
+                      if g[s].get('available') and g[s].get('nav'))
+          print('有效净值只数:', valid, '/', len(d['groups']) * 2)
+          if valid < len(d['groups']) * 2:
+              sys.exit('有效净值不足，拒绝发布')
+          PY
+
+      - name: 提交快照
+        run: |
+          git config user.name "equity-nav-bot"
+          git config user.email "equity-nav-bot@users.noreply.github.com"
+          git add equity-data.json equity.html index.html output/equity_daily_summary.txt
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 权益净值快照 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
