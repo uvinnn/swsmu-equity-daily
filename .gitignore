@@ -1,0 +1,6 @@
+output/*.png
+output/_*
+output/_run.log
+__pycache__/
+*.pyc
+.DS_Store
