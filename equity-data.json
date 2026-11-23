@@ -3,18 +3,18 @@
     "title": "权益净值播报",
     "source": "天天基金 F10 历史净值接口 api.fund.eastmoney.com/f10/lsjz",
     "note": "各基金净值日期以自身披露为准；空白表示净值未出，未按 0 处理。",
-    "generated_at": "2026-11-23 20:33:18 (北京时间)",
+    "generated_at": "2026-11-24 06:55:19 (北京时间)",
     "update_note": "工作日 19:45–21:15 云端自动更新",
     "group_count": 6,
     "fund_count": 12,
     "latest_date": "2026-11-23",
-    "is_today_published": true,
-    "today_published_count": 10,
+    "is_today_published": false,
+    "today_published_count": 0,
     "qdii_groups": [
       "全球新能源"
     ],
     "a_share_fund_count": 10,
-    "a_share_published_count": 10,
+    "a_share_published_count": 0,
     "history_days": 40,
     "fetch_failures": []
   },
