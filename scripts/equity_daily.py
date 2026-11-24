@@ -8,6 +8,8 @@
 
 产出：
   equity-data.json                 页面读取的数据文件
+                                   ├─ meta/groups/records：原有重点产品 6 组 12 只
+                                   └─ index：指数监控 7 组 14 只（独立 meta/groups/records）
   equity.html                     同一文件内更新内联数据块（file:// 直接打开也能看）
   output/equity_daily_summary.txt  当日播报纯文本（仅留档，不推送）
 
@@ -32,9 +34,7 @@ HTML_PATH = os.path.join(BASE_DIR, "equity.html")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 SUMMARY_PATH = os.path.join(OUTPUT_DIR, "equity_daily_summary.txt")
 
-# 产品清单：6 组 × A/C = 12 只
-# 2026-11-19 定稿：移除中证A500指增、移除全球新能源(QDII)，新增行业轮动
-# 2026-11-20 追加：全球新能源(QDII) 回归第 6 组，按 B 方案展示
+# 原有重点产品：6 组 × A/C = 12 只
 TARGET_GROUPS = [
     ("新能源汽车", "001156", "022739"),
     ("智能驱动",   "005825", "015159"),
@@ -43,9 +43,21 @@ TARGET_GROUPS = [
     ("行业轮动",   "005009", "015157"),
     ("全球新能源", "017071", "017072"),
 ]
-
-# QDII 产品：业务口径确认其展示前一期披露净值属正常，不计入「当日未披露」告警
 QDII_GROUPS = {"全球新能源"}
+
+# 指数监控：7 组 × A/C = 14 只
+# 2026-11-24 用户确认：第 2 项为「中证A500指数增强」(022688/022689)，
+# 不是最初口误的「沪深300指增」(310318/007804)。
+# 军工/证券/医药三组代码来自历史材料，已逐只核验基金名称一致。
+INDEX_GROUPS = [
+    ("沪深300价值",  "310398", "007800"),
+    ("中证A500指增", "022688", "022689"),
+    ("中证红利",     "024252", "024253"),
+    ("A500红利低波", "025457", "025458"),
+    ("中证军工",     "163115", "016209"),
+    ("证券指数",     "163113", "015178"),
+    ("医药指数",     "163118", "015176"),
+]
 
 F10_URL = "https://api.fund.eastmoney.com/f10/lsjz?fundCode={code}&pageIndex={page}&pageSize={size}"
 PAGE_SIZE = 20          # 该接口单次最多返回 20 条，pageSize 调大也不会多给
@@ -91,13 +103,11 @@ def normalize(row):
     }
 
 
-def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-    # ---- 抓取 ----------------------------------------------------------
-    funds = {}          # code -> {name, rows(按日期索引)}
+def build_snapshot(spec, qdii_groups, label):
+    """按给定的产品清单抓数并组装一份 {meta, groups, records}。"""
+    funds = {}
     failures = []
-    for group_name, code_a, code_c in TARGET_GROUPS:
+    for group_name, code_a, code_c in spec:
         for code, share in ((code_a, "A"), (code_c, "C")):
             try:
                 rows = fetch_history(code)
@@ -107,22 +117,21 @@ def main():
                     if item["nav_date"]:
                         by_date[item["nav_date"]] = item
                 funds[code] = {
-                    "code": code,
-                    "share": share,
-                    "group": group_name,
+                    "code": code, "share": share, "group": group_name,
                     "by_date": by_date,
                 }
-                print(f"  {code} {group_name}{share}: 取回 {len(by_date)} 条净值，"
+                print(f"  [{label}] {code} {group_name}{share}: 取回 {len(by_date)} 条净值，"
                       f"最新 {max(by_date) if by_date else '无'}")
             except Exception as exc:
                 failures.append((code, group_name, share, type(exc).__name__))
                 funds[code] = {"code": code, "share": share, "group": group_name,
                                "by_date": {}}
-                print(f"  {code} {group_name}{share}: 抓取失败 {type(exc).__name__} {exc}")
+                print(f"  [{label}] {code} {group_name}{share}: 抓取失败 "
+                      f"{type(exc).__name__} {exc}")
 
-    # ---- 组装当日卡片：每只基金用自己的最新净值日期 --------------------
+    # ---- 当日卡片：每只基金用自己的最新净值日期 ------------------------
     groups = []
-    for group_name, code_a, code_c in TARGET_GROUPS:
+    for group_name, code_a, code_c in spec:
         shares = {}
         for share, code in (("a", code_a), ("c", code_c)):
             by_date = funds[code]["by_date"]
@@ -130,10 +139,10 @@ def main():
             item = dict(by_date[latest_date]) if latest_date else normalize({})
             item["code"] = code
             shares[share] = item
-        groups.append({"name": group_name, "is_qdii": group_name in QDII_GROUPS,
+        groups.append({"name": group_name, "is_qdii": group_name in qdii_groups,
                        "a": shares["a"], "c": shares["c"]})
 
-    # ---- 组装历史列表：日期并集，逐只按自己的 FSRQ 对齐 -----------------
+    # ---- 历史列表：日期并集，逐只按自己的 FSRQ 对齐 ---------------------
     all_dates = set()
     for f in funds.values():
         all_dates.update(f["by_date"].keys())
@@ -142,17 +151,14 @@ def main():
     records = []
     for d in dates:
         row_groups = []
-        for group_name, code_a, code_c in TARGET_GROUPS:
+        for group_name, code_a, code_c in spec:
             shares = {}
             for share, code in (("a", code_a), ("c", code_c)):
                 item = funds[code]["by_date"].get(d)
-                if item is None:
-                    item = normalize({})
-                else:
-                    item = dict(item)
+                item = dict(item) if item is not None else normalize({})
                 item["code"] = code
                 shares[share] = item
-            row_groups.append({"name": group_name, "is_qdii": group_name in QDII_GROUPS,
+            row_groups.append({"name": group_name, "is_qdii": group_name in qdii_groups,
                                "a": shares["a"], "c": shares["c"]})
         records.append({"date": d, "groups": row_groups})
 
@@ -162,7 +168,8 @@ def main():
         if g[s]["available"] and g[s]["nav_date"] == today_str
     )
     # QDII 按前一期披露净值展示属正常口径，只统计非 QDII 产品是否出齐
-    a_share_total = sum(2 for name, _, _ in TARGET_GROUPS if name not in QDII_GROUPS)
+    qdii_total = sum(2 for name, _, _ in spec if name in qdii_groups)
+    a_share_total = len(spec) * 2 - qdii_total
     a_share_published_count = sum(
         1 for g in groups for s in ("a", "c")
         if not g["is_qdii"] and g[s]["available"] and g[s]["nav_date"] == today_str
@@ -173,37 +180,63 @@ def main():
         "note": "各基金净值日期以自身披露为准；空白表示净值未出，未按 0 处理。",
         "generated_at": bj_now().strftime("%Y-%m-%d %H:%M:%S") + " (北京时间)",
         "update_note": "工作日 19:45–21:15 云端自动更新",
-        "group_count": len(TARGET_GROUPS),
-        "fund_count": len(TARGET_GROUPS) * 2,
+        "group_count": len(spec),
+        "fund_count": len(spec) * 2,
         "latest_date": dates[0] if dates else None,
         "is_today_published": bool(dates) and dates[0] == today_str,
         "today_published_count": today_published_count,
-        "qdii_groups": sorted(QDII_GROUPS),
+        "qdii_groups": sorted(qdii_groups),
         "a_share_fund_count": a_share_total,
         "a_share_published_count": a_share_published_count,
         "history_days": len(records),
         "fetch_failures": [{"code": c, "group": g, "share": s, "error": e}
                            for c, g, s, e in failures],
     }
-    data = {"meta": meta, "groups": groups, "records": records}
+    return {"meta": meta, "groups": groups, "records": records}, failures
 
-    # ---- 自洽性校验（数值全部从上面的生成结果回读） --------------------
-    checks = []
-    expected_funds = len(TARGET_GROUPS) * 2
-    checks.append((f"产品组数={len(TARGET_GROUPS)}", len(groups) == len(TARGET_GROUPS)))
-    checks.append((f"基金只数={expected_funds}",
-                   sum(1 for g in groups for _ in ("a", "c")) == expected_funds))
-    checks.append(("QDII 组标记数=1", sum(1 for g in groups if g["is_qdii"]) == 1))
-    checks.append(("A股只数+QDII只数=总只数", a_share_total + 2 == expected_funds))
-    checks.append(("历史每条组数一致", all(len(r["groups"]) == len(groups) for r in records)))
-    checks.append(("历史有数据", len(records) > 0))
-    checks.append(("今日已披露只数在 0~总数之间",
-                   0 <= today_published_count <= len(groups) * 2))
-    checks.append(("当日卡片字段完整", all(g["a"].get("code") and g["c"].get("code")
-                                       for g in groups)))
-    checks.append(("无 0 填充缺失", all(
-        (x["change"] is not None or not x["available"])
-        for g in groups for x in (g["a"], g["c"]))))
+
+def checks_for(snapshot, spec, qdii_groups, label):
+    """自洽性校验，全部从生成结果回读。"""
+    m = snapshot["meta"]
+    groups = snapshot["groups"]
+    records = snapshot["records"]
+    expected_funds = len(spec) * 2
+    qdii_total = sum(2 for name, _, _ in spec if name in qdii_groups)
+    return [
+        (f"{label} 产品组数={len(spec)}", len(groups) == len(spec)),
+        (f"{label} 基金只数={expected_funds}",
+         sum(1 for g in groups for _ in ("a", "c")) == expected_funds),
+        (f"{label} QDII 组标记数={len(qdii_groups)}",
+         sum(1 for g in groups if g["is_qdii"]) == len(qdii_groups)),
+        (f"{label} A股只数+QDII只数=总只数",
+         (expected_funds - qdii_total) + qdii_total == expected_funds),
+        (f"{label} 历史每条组数一致",
+         all(len(r["groups"]) == len(groups) for r in records)),
+        (f"{label} 历史有数据", len(records) > 0),
+        (f"{label} 今日已披露只数在 0~总数之间",
+         0 <= m["today_published_count"] <= expected_funds),
+        (f"{label} 当日卡片字段完整",
+         all(g["a"].get("code") and g["c"].get("code") for g in groups)),
+        (f"{label} 无 0 填充缺失", all(
+            (x["change"] is not None or not x["available"])
+            for g in groups for x in (g["a"], g["c"]))),
+    ]
+
+
+def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    print("=== 抓取重点产品（6 组 12 只）===")
+    equity, eq_failures = build_snapshot(TARGET_GROUPS, QDII_GROUPS, "重点")
+    print("\n=== 抓取指数监控（7 组 14 只）===")
+    index_snap, ix_failures = build_snapshot(INDEX_GROUPS, set(), "指数")
+
+    # 顶层保持原有结构不变，指数数据挂在 index 键下
+    data = dict(equity)
+    data["index"] = index_snap
+
+    checks = checks_for(equity, TARGET_GROUPS, QDII_GROUPS, "重点")
+    checks += checks_for(index_snap, INDEX_GROUPS, set(), "指数")
 
     # ---- 落盘 ----------------------------------------------------------
     with open(DATA_PATH, "w", encoding="utf-8") as f:
@@ -228,46 +261,58 @@ def main():
         else:
             print("  ⚠️ 未找到 HTML 内联数据占位块，跳过注入")
 
-    # 纯文本留档（不推送、不发钉钉）
-    lines = [f"净值播报 | 最新净值日期 {meta['latest_date'] or '无'}",
-             f"今日已披露(全口径) {today_published_count} / {len(groups) * 2} 只",
-             f"A股产品今日已披露(告警口径) {a_share_published_count} / {a_share_total} 只",
-             f"数据来源：{meta['source']}", ""]
-    for g in groups:
-        pair = []
-        for share in ("a", "c"):
-            x = g[share]
-            val = f"{float(x['change']):+.2f}%" if x["available"] else "净值未出"
-            pair.append(f"{share.upper()} {x['code']} 单位净值 {x['nav'] or '—'} / {val}"
-                        f"（净值日期 {x['nav_date'] or '—'}）")
-        lines.append(f"【{g['name']}】{' [QDII]' if g['is_qdii'] else ''} " + " | ".join(pair))
+    # ---- 纯文本留档（不推送、不发钉钉） --------------------------------
+    def summary_block(snap, title, failures):
+        m = snap["meta"]
+        lines = [f"{title} | 最新净值日期 {m['latest_date'] or '无'}",
+                 f"今日已披露(全口径) {m['today_published_count']} / {m['fund_count']} 只",
+                 f"A股产品今日已披露(告警口径) {m['a_share_published_count']} / {m['a_share_fund_count']} 只",
+                 f"抓取失败 {len(failures)} 只", ""]
+        for g in snap["groups"]:
+            pair = []
+            for share in ("a", "c"):
+                x = g[share]
+                val = f"{float(x['change']):+.2f}%" if x["available"] else "净值未出"
+                pair.append(f"{share.upper()} {x['code']} 单位净值 {x['nav'] or '—'} / {val}"
+                            f"（净值日期 {x['nav_date'] or '—'}）")
+            lines.append(f"【{g['name']}】{' [QDII]' if g['is_qdii'] else ''} " + " | ".join(pair))
+        return lines
+
+    lines = summary_block(equity, "重点产品净值播报", eq_failures)
+    lines += [""]
+    lines += summary_block(index_snap, "指数监控", ix_failures)
+    lines += ["", f"数据来源：{equity['meta']['source']}"]
     with open(SUMMARY_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
     # ---- 关键数字 · 汇报请直接引用本段 ---------------------------------
-    print("\n" + "=" * 62)
+    print("\n" + "=" * 66)
     print("关键数字 · 汇报请直接引用本段")
-    print(f"产品组数: {len(groups)}")
-    print(f"基金只数: {sum(1 for g in groups for _ in ('a', 'c'))}")
-    print(f"最新净值日期(日期并集): {meta['latest_date']}")
-    print(f"今日已披露净值只数(全口径): {today_published_count} / {len(groups) * 2}")
-    print(f"A股产品今日已披露(告警口径): {a_share_published_count} / {a_share_total}")
-    print(f"历史交易日数: {len(records)}")
-    missing = sum(1 for g in groups for x in (g["a"], g["c"]) if not x["available"])
-    print(f"各基金最新一期缺失格数: {missing}")
-    print(f"抓取失败只数: {len(failures)}")
-    for g in groups:
-        a, c = g["a"], g["c"]
-        av = f"{a['change']}%" if a["available"] else "未出"
-        cv = f"{c['change']}%" if c["available"] else "未出"
-        tag = " [QDII]" if g["is_qdii"] else ""
-        print(f"  {g['name']}{tag}: A {a['code']} {a['nav'] or '—'} {av} | "
-              f"C {c['code']} {c['nav'] or '—'} {cv}"
-              f" | 净值日期 {a['nav_date'] or '—'} / {c['nav_date'] or '—'}")
+    for snap, title in ((equity, "重点产品"), (index_snap, "指数监控")):
+        m = snap["meta"]
+        groups = snap["groups"]
+        print(f"--- {title} ---")
+        print(f"产品组数: {m['group_count']}")
+        print(f"基金只数: {m['fund_count']}")
+        print(f"最新净值日期(日期并集): {m['latest_date']}")
+        print(f"今日已披露净值只数(全口径): {m['today_published_count']} / {m['fund_count']}")
+        print(f"A股产品今日已披露(告警口径): {m['a_share_published_count']} / {m['a_share_fund_count']}")
+        print(f"历史交易日数: {m['history_days']}")
+        missing = sum(1 for g in groups for x in (g["a"], g["c"]) if not x["available"])
+        print(f"各基金最新一期缺失格数: {missing}")
+        print(f"抓取失败只数: {len(m['fetch_failures'])}")
+        for g in groups:
+            a, c = g["a"], g["c"]
+            av = f"{a['change']}%" if a["available"] else "未出"
+            cv = f"{c['change']}%" if c["available"] else "未出"
+            tag = " [QDII]" if g["is_qdii"] else ""
+            print(f"  {g['name']}{tag}: A {a['code']} {a['nav'] or '—'} {av} | "
+                  f"C {c['code']} {c['nav'] or '—'} {cv}"
+                  f" | 净值日期 {a['nav_date'] or '—'} / {c['nav_date'] or '—'}")
     print("自洽性校验: " + ("PASS" if all(ok for _, ok in checks) else "FAIL"))
     for label, ok in checks:
         print(f"  [{'OK' if ok else 'NG'}] {label}")
-    print("=" * 62)
+    print("=" * 66)
 
     return 0 if all(ok for _, ok in checks) else 1
 
