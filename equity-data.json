@@ -3,7 +3,7 @@
     "title": "权益净值播报",
     "source": "天天基金 F10 历史净值接口 api.fund.eastmoney.com/f10/lsjz",
     "note": "各基金净值日期以自身披露为准；空白表示净值未出，未按 0 处理。",
-    "generated_at": "2026-11-24 08:55:55 (北京时间)",
+    "generated_at": "2026-11-24 14:01:49 (北京时间)",
     "update_note": "工作日 19:45–21:15 云端自动更新",
     "group_count": 6,
     "fund_count": 12,
@@ -4649,5 +4649,5394 @@
         }
       ]
     }
-  ]
+  ],
+  "index": {
+    "meta": {
+      "title": "权益净值播报",
+      "source": "天天基金 F10 历史净值接口 api.fund.eastmoney.com/f10/lsjz",
+      "note": "各基金净值日期以自身披露为准；空白表示净值未出，未按 0 处理。",
+      "generated_at": "2026-11-24 14:01:52 (北京时间)",
+      "update_note": "工作日 19:45–21:15 云端自动更新",
+      "group_count": 7,
+      "fund_count": 14,
+      "latest_date": "2026-11-23",
+      "is_today_published": false,
+      "today_published_count": 0,
+      "qdii_groups": [],
+      "a_share_fund_count": 14,
+      "a_share_published_count": 0,
+      "history_days": 40,
+      "fetch_failures": []
+    },
+    "groups": [
+      {
+        "name": "沪深300价值",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "1.1944",
+          "change": "-1.00",
+          "available": true,
+          "code": "310398"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "1.1606",
+          "change": "-1.01",
+          "available": true,
+          "code": "007800"
+        }
+      },
+      {
+        "name": "中证A500指增",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "1.1193",
+          "change": "0.39",
+          "available": true,
+          "code": "022688"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "1.1107",
+          "change": "0.38",
+          "available": true,
+          "code": "022689"
+        }
+      },
+      {
+        "name": "中证红利",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "1.0513",
+          "change": "-0.61",
+          "available": true,
+          "code": "024252"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "1.0494",
+          "change": "-0.62",
+          "available": true,
+          "code": "024253"
+        }
+      },
+      {
+        "name": "A500红利低波",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "1.0748",
+          "change": "-0.91",
+          "available": true,
+          "code": "025457"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "1.0714",
+          "change": "-0.92",
+          "available": true,
+          "code": "025458"
+        }
+      },
+      {
+        "name": "中证军工",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "0.9181",
+          "change": "1.50",
+          "available": true,
+          "code": "163115"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "0.9010",
+          "change": "1.50",
+          "available": true,
+          "code": "016209"
+        }
+      },
+      {
+        "name": "证券指数",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "0.8440",
+          "change": "0.12",
+          "available": true,
+          "code": "163113"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "0.8315",
+          "change": "0.12",
+          "available": true,
+          "code": "015178"
+        }
+      },
+      {
+        "name": "医药指数",
+        "is_qdii": false,
+        "a": {
+          "nav_date": "2026-11-23",
+          "nav": "0.6438",
+          "change": "1.77",
+          "available": true,
+          "code": "163118"
+        },
+        "c": {
+          "nav_date": "2026-11-23",
+          "nav": "0.6348",
+          "change": "1.76",
+          "available": true,
+          "code": "015176"
+        }
+      }
+    ],
+    "records": [
+      {
+        "date": "2026-11-23",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "1.1944",
+              "change": "-1.00",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "1.1606",
+              "change": "-1.01",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "1.1193",
+              "change": "0.39",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "1.1107",
+              "change": "0.38",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "1.0513",
+              "change": "-0.61",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "1.0494",
+              "change": "-0.62",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "1.0748",
+              "change": "-0.91",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "1.0714",
+              "change": "-0.92",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "0.9181",
+              "change": "1.50",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "0.9010",
+              "change": "1.50",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "0.8440",
+              "change": "0.12",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "0.8315",
+              "change": "0.12",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-23",
+              "nav": "0.6438",
+              "change": "1.77",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-23",
+              "nav": "0.6348",
+              "change": "1.76",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "1.2065",
+              "change": "0.89",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "1.1724",
+              "change": "0.89",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "1.1150",
+              "change": "-1.28",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "1.1065",
+              "change": "-1.28",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "1.0578",
+              "change": "-0.28",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "1.0559",
+              "change": "-0.28",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "1.0847",
+              "change": "0.64",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "1.0813",
+              "change": "0.64",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "0.9045",
+              "change": "-4.00",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "0.8877",
+              "change": "-4.00",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "0.8430",
+              "change": "-0.39",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "0.8305",
+              "change": "-0.40",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-20",
+              "nav": "0.6326",
+              "change": "-2.27",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-20",
+              "nav": "0.6238",
+              "change": "-2.27",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "1.1959",
+              "change": "0.02",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "1.1621",
+              "change": "0.02",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "1.1295",
+              "change": "-0.21",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "1.1209",
+              "change": "-0.20",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "1.0608",
+              "change": "-0.42",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "1.0589",
+              "change": "-0.42",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "1.0778",
+              "change": "-0.05",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "1.0744",
+              "change": "-0.05",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "0.9422",
+              "change": "-0.82",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "0.9247",
+              "change": "-0.82",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "0.8463",
+              "change": "0.37",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "0.8338",
+              "change": "0.36",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-19",
+              "nav": "0.6473",
+              "change": "-0.19",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-19",
+              "nav": "0.6383",
+              "change": "-0.20",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "1.1957",
+              "change": "0.11",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "1.1619",
+              "change": "0.11",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "1.1319",
+              "change": "0.76",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "1.1232",
+              "change": "0.74",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "1.0653",
+              "change": "0.08",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "1.0634",
+              "change": "0.08",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "1.0783",
+              "change": "0.36",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "1.0749",
+              "change": "0.35",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "0.9500",
+              "change": "-1.42",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "0.9323",
+              "change": "-1.43",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "0.8432",
+              "change": "-0.40",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "0.8308",
+              "change": "-0.40",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-18",
+              "nav": "0.6485",
+              "change": "-0.90",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-18",
+              "nav": "0.6396",
+              "change": "-0.88",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "1.1944",
+              "change": "0.34",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "1.1606",
+              "change": "0.34",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "1.1234",
+              "change": "-0.11",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "1.1149",
+              "change": "-0.11",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "1.0644",
+              "change": "-0.34",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "1.0625",
+              "change": "-0.34",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "1.0744",
+              "change": "0.41",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "1.0711",
+              "change": "0.41",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "0.9637",
+              "change": "-0.54",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "0.9458",
+              "change": "-0.54",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "0.8466",
+              "change": "0.07",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "0.8341",
+              "change": "0.07",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-17",
+              "nav": "0.6544",
+              "change": "-0.24",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-17",
+              "nav": "0.6453",
+              "change": "-0.25",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "1.1904",
+              "change": "1.38",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "1.1567",
+              "change": "1.38",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "1.1246",
+              "change": "-1.64",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "1.1161",
+              "change": "-1.64",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "1.0680",
+              "change": "1.33",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "1.0661",
+              "change": "1.33",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "1.0700",
+              "change": "1.76",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "1.0667",
+              "change": "1.76",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "0.9689",
+              "change": "-3.53",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "0.9509",
+              "change": "-3.54",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "0.8460",
+              "change": "0.38",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "0.8335",
+              "change": "0.37",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-16",
+              "nav": "0.6560",
+              "change": "-0.49",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-16",
+              "nav": "0.6469",
+              "change": "-0.49",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "1.1742",
+              "change": "1.00",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "1.1410",
+              "change": "0.99",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "1.1434",
+              "change": "-1.85",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "1.1347",
+              "change": "-1.85",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "1.0540",
+              "change": "0.31",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "1.0521",
+              "change": "0.31",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "1.0515",
+              "change": "1.03",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "1.0483",
+              "change": "1.03",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "1.0044",
+              "change": "-1.79",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "0.9858",
+              "change": "-1.78",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "0.8428",
+              "change": "-0.37",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "0.8304",
+              "change": "-0.37",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-13",
+              "nav": "0.6592",
+              "change": "-0.98",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-13",
+              "nav": "0.6501",
+              "change": "-0.97",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "1.1626",
+              "change": "-0.17",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "1.1298",
+              "change": "-0.17",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "1.1649",
+              "change": "-0.63",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "1.1561",
+              "change": "-0.64",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "1.0507",
+              "change": "-0.55",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "1.0488",
+              "change": "-0.55",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "1.0408",
+              "change": "0.03",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "1.0376",
+              "change": "0.03",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "1.0227",
+              "change": "-0.67",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "1.0037",
+              "change": "-0.67",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "0.8459",
+              "change": "-0.91",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "0.8335",
+              "change": "-0.92",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-12",
+              "nav": "0.6657",
+              "change": "-0.22",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-12",
+              "nav": "0.6565",
+              "change": "-0.23",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "1.1646",
+              "change": "-0.67",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "1.1317",
+              "change": "-0.68",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "1.1723",
+              "change": "1.52",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "1.1635",
+              "change": "1.53",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "1.0565",
+              "change": "-0.06",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "1.0546",
+              "change": "-0.07",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "1.0405",
+              "change": "-0.93",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "1.0373",
+              "change": "-0.94",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "1.0296",
+              "change": "-0.02",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "1.0105",
+              "change": "-0.02",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "0.8537",
+              "change": "-0.78",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "0.8412",
+              "change": "-0.78",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-11",
+              "nav": "0.6672",
+              "change": "-0.86",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-11",
+              "nav": "0.6580",
+              "change": "-0.86",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "1.1725",
+              "change": "-0.58",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "1.1394",
+              "change": "-0.58",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "1.1547",
+              "change": "-0.02",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "1.1460",
+              "change": "-0.02",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "1.0571",
+              "change": "-0.55",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "1.0553",
+              "change": "-0.54",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "1.0503",
+              "change": "-0.45",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "1.0471",
+              "change": "-0.45",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "1.0298",
+              "change": "-0.04",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "1.0107",
+              "change": "-0.05",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "0.8604",
+              "change": "-0.20",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "0.8478",
+              "change": "-0.19",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-10",
+              "nav": "0.6730",
+              "change": "-0.22",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-10",
+              "nav": "0.6637",
+              "change": "-0.23",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "1.1793",
+              "change": "0.25",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "1.1460",
+              "change": "0.24",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "1.1549",
+              "change": "0.21",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "1.1462",
+              "change": "0.21",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "1.0629",
+              "change": "0.50",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "1.0610",
+              "change": "0.49",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "1.0550",
+              "change": "-0.01",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "1.0518",
+              "change": "-0.01",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "1.0302",
+              "change": "0.80",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "1.0112",
+              "change": "0.81",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "0.8621",
+              "change": "-0.43",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "0.8494",
+              "change": "-0.45",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-09",
+              "nav": "0.6745",
+              "change": "-0.68",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-09",
+              "nav": "0.6652",
+              "change": "-0.67",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "1.1764",
+              "change": "0.42",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "1.1432",
+              "change": "0.41",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "1.1525",
+              "change": "-2.31",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "1.1438",
+              "change": "-2.31",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "1.0576",
+              "change": "0.23",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "1.0558",
+              "change": "0.24",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "1.0551",
+              "change": "0.96",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "1.0519",
+              "change": "0.95",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "1.0220",
+              "change": "-1.49",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "1.0031",
+              "change": "-1.49",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "0.8658",
+              "change": "-0.99",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "0.8532",
+              "change": "-0.99",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-06",
+              "nav": "0.6791",
+              "change": "-1.31",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-06",
+              "nav": "0.6697",
+              "change": "-1.33",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-05",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "1.1715",
+              "change": "-0.70",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "1.1385",
+              "change": "-0.69",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "1.1797",
+              "change": "0.24",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "1.1709",
+              "change": "0.24",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "1.0552",
+              "change": "-1.21",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "1.0533",
+              "change": "-1.21",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "1.0451",
+              "change": "-0.60",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "1.0420",
+              "change": "-0.59",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "1.0375",
+              "change": "0.16",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "1.0183",
+              "change": "0.16",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "0.8745",
+              "change": "-0.18",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "0.8617",
+              "change": "-0.19",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-05",
+              "nav": "0.6881",
+              "change": "2.11",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-05",
+              "nav": "0.6787",
+              "change": "2.12",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "1.1797",
+              "change": "-0.53",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "1.1464",
+              "change": "-0.54",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "1.1769",
+              "change": "3.87",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "1.1681",
+              "change": "3.87",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "1.0681",
+              "change": "-0.06",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "1.0662",
+              "change": "-0.06",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "1.0514",
+              "change": "-0.93",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "1.0482",
+              "change": "-0.94",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "1.0358",
+              "change": "2.92",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "1.0167",
+              "change": "2.93",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "0.8761",
+              "change": "0.44",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "0.8633",
+              "change": "0.43",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-04",
+              "nav": "0.6739",
+              "change": "2.96",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-04",
+              "nav": "0.6646",
+              "change": "2.96",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "1.1860",
+              "change": "0.81",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "1.1526",
+              "change": "0.80",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "1.1331",
+              "change": "-1.42",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "1.1246",
+              "change": "-1.43",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "1.0687",
+              "change": "0.12",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "1.0668",
+              "change": "0.11",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "1.0613",
+              "change": "1.11",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "1.0581",
+              "change": "1.11",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "1.0064",
+              "change": "0.10",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "0.9878",
+              "change": "0.09",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "0.8723",
+              "change": "1.09",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "0.8596",
+              "change": "1.09",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-03",
+              "nav": "0.6545",
+              "change": "0.25",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-03",
+              "nav": "0.6455",
+              "change": "0.23",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "1.1765",
+              "change": "-0.05",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "1.1434",
+              "change": "-0.05",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "1.1494",
+              "change": "0.41",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "1.1409",
+              "change": "0.41",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "1.0674",
+              "change": "-0.08",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "1.0656",
+              "change": "-0.08",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "1.0496",
+              "change": "-0.02",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "1.0465",
+              "change": "-0.02",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "1.0054",
+              "change": "2.11",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "0.9869",
+              "change": "2.11",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "0.8629",
+              "change": "4.29",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "0.8503",
+              "change": "4.29",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-11-02",
+              "nav": "0.6529",
+              "change": "0.77",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-11-02",
+              "nav": "0.6440",
+              "change": "0.78",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "1.1771",
+              "change": "0.36",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "1.1440",
+              "change": "0.36",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "1.1447",
+              "change": "-1.85",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "1.1362",
+              "change": "-1.86",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "1.0683",
+              "change": "0.75",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "1.0665",
+              "change": "0.76",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "1.0498",
+              "change": "0.64",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "1.0467",
+              "change": "0.64",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "0.9846",
+              "change": "-3.55",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "0.9665",
+              "change": "-3.54",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "0.8274",
+              "change": "-1.16",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "0.8153",
+              "change": "-1.16",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-30",
+              "nav": "0.6479",
+              "change": "0.08",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-30",
+              "nav": "0.6390",
+              "change": "0.06",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "1.1729",
+              "change": "0.99",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "1.1399",
+              "change": "0.99",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "1.1663",
+              "change": "-1.44",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "1.1577",
+              "change": "-1.45",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "1.0603",
+              "change": "0.75",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "1.0585",
+              "change": "0.75",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "1.0431",
+              "change": "0.95",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "1.0400",
+              "change": "0.94",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "1.0208",
+              "change": "-0.24",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "1.0020",
+              "change": "-0.24",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "0.8371",
+              "change": "-1.59",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "0.8249",
+              "change": "-1.59",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-29",
+              "nav": "0.6474",
+              "change": "-0.19",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-29",
+              "nav": "0.6386",
+              "change": "-0.17",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "1.1614",
+              "change": "-0.38",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "1.1287",
+              "change": "-0.38",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "1.1834",
+              "change": "1.25",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "1.1747",
+              "change": "1.25",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "1.0524",
+              "change": "0.04",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "1.0506",
+              "change": "0.04",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "1.0333",
+              "change": "-0.41",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "1.0303",
+              "change": "-0.42",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "1.0233",
+              "change": "0.86",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "1.0044",
+              "change": "0.85",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "0.8506",
+              "change": "-0.85",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "0.8382",
+              "change": "-0.85",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-28",
+              "nav": "0.6486",
+              "change": "0.79",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-28",
+              "nav": "0.6397",
+              "change": "0.79",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "1.1658",
+              "change": "0.11",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "1.1330",
+              "change": "0.11",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "1.1688",
+              "change": "-1.54",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "1.1602",
+              "change": "-1.54",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "1.0520",
+              "change": "0.57",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "1.0502",
+              "change": "0.58",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "1.0376",
+              "change": "-0.07",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "1.0346",
+              "change": "-0.07",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "1.0146",
+              "change": "-3.73",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "0.9959",
+              "change": "-3.73",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "0.8579",
+              "change": "-1.98",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "0.8454",
+              "change": "-1.98",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-27",
+              "nav": "0.6435",
+              "change": "-3.10",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-27",
+              "nav": "0.6347",
+              "change": "-3.11",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "1.1645",
+              "change": "1.36",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "1.1318",
+              "change": "1.35",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "1.1871",
+              "change": "-0.87",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "1.1783",
+              "change": "-0.87",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "1.0460",
+              "change": "1.15",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "1.0441",
+              "change": "1.14",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "1.0383",
+              "change": "1.53",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "1.0353",
+              "change": "1.52",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "1.0539",
+              "change": "-0.65",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "1.0345",
+              "change": "-0.65",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "0.8752",
+              "change": "0.81",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "0.8625",
+              "change": "0.81",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-26",
+              "nav": "0.6641",
+              "change": "0.93",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-26",
+              "nav": "0.6551",
+              "change": "0.94",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "1.1489",
+              "change": "0.00",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "1.1167",
+              "change": "0.01",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "1.1975",
+              "change": "2.07",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "1.1887",
+              "change": "2.07",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "1.0341",
+              "change": "-0.02",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "1.0323",
+              "change": "-0.02",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "1.0227",
+              "change": "-0.34",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "1.0198",
+              "change": "-0.33",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "1.0608",
+              "change": "2.07",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "1.0413",
+              "change": "2.07",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "0.8682",
+              "change": "1.40",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "0.8556",
+              "change": "1.40",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-23",
+              "nav": "0.6580",
+              "change": "2.14",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-23",
+              "nav": "0.6490",
+              "change": "2.12",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "1.1489",
+              "change": "-0.36",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "1.1166",
+              "change": "-0.37",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "1.1732",
+              "change": "-2.40",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "1.1646",
+              "change": "-2.40",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "1.0343",
+              "change": "-1.55",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "1.0325",
+              "change": "-1.55",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "1.0262",
+              "change": "-0.28",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "1.0232",
+              "change": "-0.28",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "1.0393",
+              "change": "-2.10",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "1.0202",
+              "change": "-2.11",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "0.8562",
+              "change": "-0.53",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "0.8438",
+              "change": "-0.54",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-22",
+              "nav": "0.6442",
+              "change": "-2.08",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-22",
+              "nav": "0.6355",
+              "change": "-2.08",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "1.1531",
+              "change": "-0.79",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "1.1207",
+              "change": "-0.80",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "1.2020",
+              "change": "-0.47",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "1.1932",
+              "change": "-0.47",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "1.0506",
+              "change": "-0.94",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "1.0488",
+              "change": "-0.94",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "1.0291",
+              "change": "-1.00",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "1.0261",
+              "change": "-1.00",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "1.0616",
+              "change": "-0.46",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "1.0422",
+              "change": "-0.45",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "0.8608",
+              "change": "-1.00",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "0.8484",
+              "change": "-0.99",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-21",
+              "nav": "0.6579",
+              "change": "-0.15",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-21",
+              "nav": "0.6490",
+              "change": "-0.14",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "1.1623",
+              "change": "-1.01",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "1.1297",
+              "change": "-1.01",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "1.2077",
+              "change": "-0.57",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "1.1988",
+              "change": "-0.58",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "1.0606",
+              "change": "-1.09",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "1.0587",
+              "change": "-1.09",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "1.0395",
+              "change": "-0.79",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "1.0365",
+              "change": "-0.79",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "1.0665",
+              "change": "-0.24",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "1.0469",
+              "change": "-0.25",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "0.8695",
+              "change": "-1.52",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "0.8569",
+              "change": "-1.52",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-20",
+              "nav": "0.6589",
+              "change": "1.00",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-20",
+              "nav": "0.6499",
+              "change": "0.98",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "1.1742",
+              "change": "0.70",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "1.1412",
+              "change": "0.69",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "1.2146",
+              "change": "-0.02",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "1.2058",
+              "change": "-0.02",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "1.0723",
+              "change": "0.72",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "1.0704",
+              "change": "0.72",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "1.0478",
+              "change": "1.02",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "1.0448",
+              "change": "1.02",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "1.0691",
+              "change": "1.19",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "1.0495",
+              "change": "1.20",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "0.8829",
+              "change": "0.03",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "0.8701",
+              "change": "0.03",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-19",
+              "nav": "0.6524",
+              "change": "0.98",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-19",
+              "nav": "0.6436",
+              "change": "0.97",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "1.1660",
+              "change": "0.23",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "1.1334",
+              "change": "0.24",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "1.2149",
+              "change": "0.00",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "1.2061",
+              "change": "0.00",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "1.0646",
+              "change": "0.77",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "1.0627",
+              "change": "0.77",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "1.0372",
+              "change": "-0.07",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "1.0343",
+              "change": "-0.07",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "1.0565",
+              "change": "2.36",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "1.0371",
+              "change": "2.36",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "0.8826",
+              "change": "-0.62",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "0.8698",
+              "change": "-0.63",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-16",
+              "nav": "0.6461",
+              "change": "-1.22",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-16",
+              "nav": "0.6374",
+              "change": "-1.21",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-15",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "1.1633",
+              "change": "-0.42",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "1.1307",
+              "change": "-0.42",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "1.2149",
+              "change": "-1.56",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "1.2061",
+              "change": "-1.57",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "1.0565",
+              "change": "-2.28",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "1.0546",
+              "change": "-2.29",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "1.0379",
+              "change": "-0.38",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "1.0350",
+              "change": "-0.38",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "1.0321",
+              "change": "-3.51",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "1.0132",
+              "change": "-3.50",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "0.8881",
+              "change": "0.42",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "0.8753",
+              "change": "0.42",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-15",
+              "nav": "0.6541",
+              "change": "-0.14",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-15",
+              "nav": "0.6452",
+              "change": "-0.15",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-14",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "1.1682",
+              "change": "0.05",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "1.1355",
+              "change": "0.05",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "1.2342",
+              "change": "-1.49",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "1.2253",
+              "change": "-1.50",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "1.0811",
+              "change": "0.61",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "1.0793",
+              "change": "0.62",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "1.0419",
+              "change": "0.91",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "1.0390",
+              "change": "0.91",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "1.0696",
+              "change": "-1.01",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "1.0500",
+              "change": "-1.01",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "0.8844",
+              "change": "-0.17",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "0.8716",
+              "change": "-0.17",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-14",
+              "nav": "0.6550",
+              "change": "-0.70",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-14",
+              "nav": "0.6462",
+              "change": "-0.69",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "1.1676",
+              "change": "-0.38",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "1.1349",
+              "change": "-0.39",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "1.2529",
+              "change": "-0.14",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "1.2439",
+              "change": "-0.14",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "1.0745",
+              "change": "0.27",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "1.0726",
+              "change": "0.27",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "1.0325",
+              "change": "-0.16",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "1.0296",
+              "change": "-0.16",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "1.0805",
+              "change": "2.23",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "1.0607",
+              "change": "2.23",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "0.8859",
+              "change": "-0.09",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "0.8731",
+              "change": "-0.10",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-13",
+              "nav": "0.6596",
+              "change": "-0.92",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-13",
+              "nav": "0.6507",
+              "change": "-0.91",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-12",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "1.1721",
+              "change": "0.99",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "1.1393",
+              "change": "0.99",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "1.2547",
+              "change": "-0.99",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "1.2456",
+              "change": "-0.99",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "1.0716",
+              "change": "0.24",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "1.0697",
+              "change": "0.23",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "1.0342",
+              "change": "1.22",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "1.0313",
+              "change": "1.23",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "1.0569",
+              "change": "-2.06",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "1.0376",
+              "change": "-2.06",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "0.8867",
+              "change": "0.34",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "0.8740",
+              "change": "0.34",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-12",
+              "nav": "0.6657",
+              "change": "-0.76",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-12",
+              "nav": "0.6567",
+              "change": "-0.76",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-09",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "1.1606",
+              "change": "-0.01",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "1.1281",
+              "change": "-0.02",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "1.2673",
+              "change": "0.20",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "1.2581",
+              "change": "0.19",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "1.0690",
+              "change": "0.74",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "1.0672",
+              "change": "0.75",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "1.0217",
+              "change": "0.08",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "1.0188",
+              "change": "0.08",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "1.0791",
+              "change": "-1.34",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "1.0594",
+              "change": "-1.34",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "0.8837",
+              "change": "2.01",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "0.8710",
+              "change": "2.01",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-09",
+              "nav": "0.6708",
+              "change": "0.46",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-09",
+              "nav": "0.6617",
+              "change": "0.46",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "1.1607",
+              "change": "0.47",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "1.1283",
+              "change": "0.46",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "1.2648",
+              "change": "-0.89",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "1.2557",
+              "change": "-0.90",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "1.0611",
+              "change": "1.02",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "1.0593",
+              "change": "1.03",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "1.0209",
+              "change": "0.91",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "1.0180",
+              "change": "0.90",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "1.0938",
+              "change": "-0.45",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "1.0738",
+              "change": "-0.45",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "0.8663",
+              "change": "-1.61",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "0.8538",
+              "change": "-1.62",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-10-08",
+              "nav": "0.6677",
+              "change": "-2.55",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-10-08",
+              "nav": "0.6587",
+              "change": "-2.56",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "1.1553",
+              "change": "0.94",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "1.1231",
+              "change": "0.94",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "1.2762",
+              "change": "0.38",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "1.2671",
+              "change": "0.37",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "1.0504",
+              "change": "1.07",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "1.0485",
+              "change": "1.05",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "1.0117",
+              "change": "1.03",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "1.0089",
+              "change": "1.02",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "1.0987",
+              "change": "0.01",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "1.0787",
+              "change": "0.00",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "0.8805",
+              "change": "0.38",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "0.8679",
+              "change": "0.38",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-30",
+              "nav": "0.6852",
+              "change": "2.79",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-30",
+              "nav": "0.6760",
+              "change": "2.80",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-29",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "1.1445",
+              "change": "0.03",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "1.1126",
+              "change": "0.03",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "1.2714",
+              "change": "0.05",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "1.2624",
+              "change": "0.05",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "1.0393",
+              "change": "-0.17",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "1.0376",
+              "change": "-0.16",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "1.0014",
+              "change": "0.16",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "0.9987",
+              "change": "0.16",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "1.0986",
+              "change": "0.22",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "1.0787",
+              "change": "0.22",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "0.8772",
+              "change": "-0.02",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "0.8646",
+              "change": "-0.02",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-29",
+              "nav": "0.6666",
+              "change": "0.30",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-29",
+              "nav": "0.6576",
+              "change": "0.29",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-28",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "1.1442",
+              "change": "-0.41",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "1.1123",
+              "change": "-0.41",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "1.2708",
+              "change": "-1.79",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "1.2618",
+              "change": "-1.80",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "1.0411",
+              "change": "-0.57",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "1.0393",
+              "change": "-0.57",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "0.9998",
+              "change": "0.29",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "0.9971",
+              "change": "0.29",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "1.0962",
+              "change": "-2.50",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "1.0763",
+              "change": "-2.50",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "0.8774",
+              "change": "-1.77",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "0.8648",
+              "change": "-1.77",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-28",
+              "nav": "0.6646",
+              "change": "0.00",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-28",
+              "nav": "0.6557",
+              "change": "0.00",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-24",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "1.1489",
+              "change": "-0.35",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "1.1169",
+              "change": "-0.35",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "1.2940",
+              "change": "-1.66",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "1.2849",
+              "change": "-1.65",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "1.0471",
+              "change": "-0.26",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "1.0453",
+              "change": "-0.26",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "0.9969",
+              "change": "-0.05",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "0.9942",
+              "change": "-0.05",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "1.1243",
+              "change": "-1.76",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "1.1039",
+              "change": "-1.76",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "0.8932",
+              "change": "-1.76",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "0.8804",
+              "change": "-1.76",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-24",
+              "nav": "0.6646",
+              "change": "-2.45",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-24",
+              "nav": "0.6557",
+              "change": "-2.45",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-23",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "1.1529",
+              "change": "-0.60",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "1.1208",
+              "change": "-0.60",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "1.3158",
+              "change": "-0.64",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "1.3065",
+              "change": "-0.65",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "1.0498",
+              "change": "-0.71",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "1.0480",
+              "change": "-0.71",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "0.9974",
+              "change": "-0.13",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "0.9947",
+              "change": "-0.13",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "1.1445",
+              "change": "-1.23",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "1.1237",
+              "change": "-1.24",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "0.9092",
+              "change": "-0.46",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "0.8962",
+              "change": "-0.47",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-23",
+              "nav": "0.6813",
+              "change": "0.07",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-23",
+              "nav": "0.6722",
+              "change": "0.07",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-22",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "1.1599",
+              "change": "0.09",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "1.1276",
+              "change": "0.09",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "1.3243",
+              "change": "0.17",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "1.3150",
+              "change": "0.16",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "1.0573",
+              "change": "-0.03",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "1.0555",
+              "change": "-0.03",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "0.9987",
+              "change": "-0.20",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "0.9960",
+              "change": "-0.21",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "1.1588",
+              "change": "-0.60",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "1.1378",
+              "change": "-0.59",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "0.9134",
+              "change": "0.23",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "0.9004",
+              "change": "0.23",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-22",
+              "nav": "0.6808",
+              "change": "-0.04",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-22",
+              "nav": "0.6717",
+              "change": "-0.03",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2026-09-21",
+        "groups": [
+          {
+            "name": "沪深300价值",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "1.1589",
+              "change": "0.44",
+              "available": true,
+              "code": "310398"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "1.1266",
+              "change": "0.44",
+              "available": true,
+              "code": "007800"
+            }
+          },
+          {
+            "name": "中证A500指增",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "1.3221",
+              "change": "0.56",
+              "available": true,
+              "code": "022688"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "1.3129",
+              "change": "0.56",
+              "available": true,
+              "code": "022689"
+            }
+          },
+          {
+            "name": "中证红利",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "1.0576",
+              "change": "1.13",
+              "available": true,
+              "code": "024252"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "1.0558",
+              "change": "1.13",
+              "available": true,
+              "code": "024253"
+            }
+          },
+          {
+            "name": "A500红利低波",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "1.0007",
+              "change": "0.11",
+              "available": true,
+              "code": "025457"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "0.9981",
+              "change": "0.11",
+              "available": true,
+              "code": "025458"
+            }
+          },
+          {
+            "name": "中证军工",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "1.1658",
+              "change": "1.41",
+              "available": true,
+              "code": "163115"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "1.1446",
+              "change": "1.40",
+              "available": true,
+              "code": "016209"
+            }
+          },
+          {
+            "name": "证券指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "0.9113",
+              "change": "1.04",
+              "available": true,
+              "code": "163113"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "0.8983",
+              "change": "1.03",
+              "available": true,
+              "code": "015178"
+            }
+          },
+          {
+            "name": "医药指数",
+            "is_qdii": false,
+            "a": {
+              "nav_date": "2026-09-21",
+              "nav": "0.6811",
+              "change": "2.92",
+              "available": true,
+              "code": "163118"
+            },
+            "c": {
+              "nav_date": "2026-09-21",
+              "nav": "0.6719",
+              "change": "2.89",
+              "available": true,
+              "code": "015176"
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
