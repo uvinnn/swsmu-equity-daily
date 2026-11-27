@@ -3,18 +3,18 @@
     "title": "权益净值播报",
     "source": "天天基金 F10 历史净值接口 api.fund.eastmoney.com/f10/lsjz",
     "note": "各基金净值日期以自身披露为准；空白表示净值未出，未按 0 处理。",
-    "generated_at": "2026-11-27 20:00:45 (北京时间)",
+    "generated_at": "2026-11-28 04:19:21 (北京时间)",
     "update_note": "工作日 19:45–21:15 云端自动更新",
     "group_count": 6,
     "fund_count": 12,
     "latest_date": "2026-11-27",
-    "is_today_published": true,
-    "today_published_count": 10,
+    "is_today_published": false,
+    "today_published_count": 0,
     "qdii_groups": [
       "全球新能源"
     ],
     "a_share_fund_count": 10,
-    "a_share_published_count": 10,
+    "a_share_published_count": 0,
     "history_days": 40,
     "fetch_failures": []
   },
@@ -4655,16 +4655,16 @@
       "title": "权益净值播报",
       "source": "天天基金 F10 历史净值接口 api.fund.eastmoney.com/f10/lsjz",
       "note": "各基金净值日期以自身披露为准；空白表示净值未出，未按 0 处理。",
-      "generated_at": "2026-11-27 20:00:47 (北京时间)",
+      "generated_at": "2026-11-28 04:19:48 (北京时间)",
       "update_note": "工作日 19:45–21:15 云端自动更新",
       "group_count": 7,
       "fund_count": 14,
       "latest_date": "2026-11-27",
-      "is_today_published": true,
-      "today_published_count": 8,
+      "is_today_published": false,
+      "today_published_count": 0,
       "qdii_groups": [],
       "a_share_fund_count": 14,
-      "a_share_published_count": 8,
+      "a_share_published_count": 0,
       "history_days": 40,
       "fetch_failures": []
     },
@@ -4673,16 +4673,16 @@
         "name": "沪深300价值",
         "is_qdii": false,
         "a": {
-          "nav_date": "2026-11-26",
+          "nav_date": "2026-11-27",
           "nav": "1.1961",
-          "change": "0.33",
+          "change": "0.00",
           "available": true,
           "code": "310398"
         },
         "c": {
-          "nav_date": "2026-11-26",
+          "nav_date": "2026-11-27",
           "nav": "1.1622",
-          "change": "0.33",
+          "change": "0.00",
           "available": true,
           "code": "007800"
         }
@@ -4709,16 +4709,16 @@
         "name": "中证红利",
         "is_qdii": false,
         "a": {
-          "nav_date": "2026-11-26",
-          "nav": "1.0498",
-          "change": "1.01",
+          "nav_date": "2026-11-27",
+          "nav": "1.0499",
+          "change": "0.01",
           "available": true,
           "code": "024252"
         },
         "c": {
-          "nav_date": "2026-11-26",
+          "nav_date": "2026-11-27",
           "nav": "1.0479",
-          "change": "1.01",
+          "change": "0.00",
           "available": true,
           "code": "024253"
         }
@@ -4727,16 +4727,16 @@
         "name": "A500红利低波",
         "is_qdii": false,
         "a": {
-          "nav_date": "2026-11-26",
-          "nav": "1.0752",
-          "change": "-0.07",
+          "nav_date": "2026-11-27",
+          "nav": "1.0697",
+          "change": "-0.51",
           "available": true,
           "code": "025457"
         },
         "c": {
-          "nav_date": "2026-11-26",
-          "nav": "1.0718",
-          "change": "-0.07",
+          "nav_date": "2026-11-27",
+          "nav": "1.0663",
+          "change": "-0.51",
           "available": true,
           "code": "025458"
         }
@@ -4804,17 +4804,17 @@
             "name": "沪深300价值",
             "is_qdii": false,
             "a": {
-              "nav_date": null,
-              "nav": null,
-              "change": null,
-              "available": false,
+              "nav_date": "2026-11-27",
+              "nav": "1.1961",
+              "change": "0.00",
+              "available": true,
               "code": "310398"
             },
             "c": {
-              "nav_date": null,
-              "nav": null,
-              "change": null,
-              "available": false,
+              "nav_date": "2026-11-27",
+              "nav": "1.1622",
+              "change": "0.00",
+              "available": true,
               "code": "007800"
             }
           },
@@ -4840,17 +4840,17 @@
             "name": "中证红利",
             "is_qdii": false,
             "a": {
-              "nav_date": null,
-              "nav": null,
-              "change": null,
-              "available": false,
+              "nav_date": "2026-11-27",
+              "nav": "1.0499",
+              "change": "0.01",
+              "available": true,
               "code": "024252"
             },
             "c": {
-              "nav_date": null,
-              "nav": null,
-              "change": null,
-              "available": false,
+              "nav_date": "2026-11-27",
+              "nav": "1.0479",
+              "change": "0.00",
+              "available": true,
               "code": "024253"
             }
           },
@@ -4858,17 +4858,17 @@
             "name": "A500红利低波",
             "is_qdii": false,
             "a": {
-              "nav_date": null,
-              "nav": null,
-              "change": null,
-              "available": false,
+              "nav_date": "2026-11-27",
+              "nav": "1.0697",
+              "change": "-0.51",
+              "available": true,
               "code": "025457"
             },
             "c": {
-              "nav_date": null,
-              "nav": null,
-              "change": null,
-              "available": false,
+              "nav_date": "2026-11-27",
+              "nav": "1.0663",
+              "change": "-0.51",
+              "available": true,
               "code": "025458"
             }
           },
